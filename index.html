@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="zxx">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tom & Jerry</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Jerry and Cheese</h1>
+    </header>
+    <audio id="audio" loop src="audio/1-track-1.mp3"></audio>
+    <audio id="audio-end" loop src="audio/2-track-2.mp3"></audio>
+
+    <section id="displayBtn">
+      <button id="play-game" onclick="playAudio()">Play Game</button>
+    </section>
+
+    <section id="game-place">
+      <canvas id="canvas1" height="500px" width="800px"></canvas>
+    </section>
+
+    <script src="./js/tom.js"></script>
+    <script src="./js//jerry.js"></script>
+    <script src="./js/cheese.js"></script>
+    <script src="./js/mechanism.js"></script>
+  </body>
+</html>
